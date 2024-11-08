@@ -42,4 +42,19 @@ void main() {
   // Diferencia entre 1 y 2
   print(lista[4]);
   print(lista.elementAt(4));
+
+  // Map
+  final lista2 = lista.map(
+    // Esto es una función 
+    (value) {
+    return value +1;
+  }
+  );
+  print(lista2);
+
+  /// ForEach
+  lista.forEach((value) {
+    print(value);
+    // otra acción
+  });
 }
