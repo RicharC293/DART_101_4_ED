@@ -6,12 +6,12 @@ Para resolver esto, dentro de la carpeta con ```TU_NOMBRE``` vamos a crearnos un
 
 ### Ejercicio
 Vamos a crear variables que representen de la mejor manera los siguientes conceptos y sobre cada variable agrega un comentario del por qué se coloca este nombre:
-* El nombre de un usuario.
-* La edad de un usuario.
-* La velocidad de la luz (300000 km/s).
-* El color primario de una aplicación.
-* El precio de compra de varios productos mostrados en un carrito. 
-* La pregunta "¿Soy mayor de edad?"
+* El nombre de un usuario.  -> Final    
+* La edad de un usuario.   -> Final - String (requisito que tengan)
+* La velocidad de la luz (300000 km/s).  -> Const   
+* El color primario de una aplicación.   -> Const -- String
+* El precio de compra de varios productos mostrados en un carrito. -> Variabkle  -- String 
+* La pregunta "¿Soy mayor de edad?"  -> Final 
 
 Nota: Puedes agregar todos los datos como String, entre comillas "", ya que es el único tipo de dato que conocemos.
 
