@@ -41,6 +41,29 @@ void main() {
   print(lista);
 
 
+  // Igual al de Richar  MAP - FOREACH
+  // ================================
+
+// Map
+  final lista2 = lista.map(
+    // Esto es una función 
+    (value) {
+    return value +1;
+  }
+  );
+  print(lista2);
+
+  /// ForEach
+  lista.forEach((value) {
+    print(value);
+    // otra acción
+  });
+
+
+
+
+  // ==================================
+
 
 
 
