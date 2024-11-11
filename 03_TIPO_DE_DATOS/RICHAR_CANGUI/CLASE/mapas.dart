@@ -80,18 +80,37 @@ void main() {
     "colors": {
       "iphone6": "rojo",
       "iphone11": "azul",
-    },
+    }
   };
 
-  Map<String, dynamic> producto2 = {};
+  Map<String, dynamic> producto2 = {
+    "id": 2,
+    "nombre": "Celular",
+    "codigo_barras": "1234567890",
+    "precio": 200.0,
+    "decripción": "Celular de alta gama",
+    "imagen": "https://testhp.com/img",
+    "is_available": true,
+    "images": ["img1", "img2", "img3"],
+    "colors": {
+      "iphone6": "rojo",
+      "iphone11": "azul",
+    }
+  };
+
+  
 
   /// Multiple productos
-
+/*
   List<Map<String, dynamic>> productos = [
     producto,
     producto2,
     producto,
   ];
+*/
+  List<Map<String, dynamic>> productos_matriz = [ producto, producto2];
+
+  print(productos_matriz);
 
   // imagenes
   // url -> NetworkImage -> tiempo de carga
