@@ -2,7 +2,7 @@
 // clave : valor
 void main() {
   // Map<String, String>  -> String
-  //{}; Mapa vacío
+  // {}; Mapa vacío
   Map<String, String> miPrimerMapa = {
     "clave": "valor",
     "clave2": "valor2",
@@ -34,18 +34,18 @@ void main() {
   print(miPrimerMapa["clave6"]);
 
   // Mapas tienen métodos para operar
-  print(miPrimerMapa.length);
+  print(miPrimerMapa.length); // clave-valor -> 6
 
   print(miPrimerMapa.keys);
 
   print(miPrimerMapa.values);
 
   /// Valida la clave
-  miPrimerMapa.containsKey("pepito");
+  miPrimerMapa.containsKey("pepito"); // false
 
   /// Agregar mas información a un mapa
   miPrimerMapa['clave7'] = 'valor7';
-  print(miPrimerMapa);
+  print(miPrimerMapa); // agregar la clave7 y el valor7
 
   /// clave6 -> pepito
   /// 1 - se edita
@@ -86,12 +86,11 @@ void main() {
   Map<String, dynamic> producto2 = {};
 
   /// Multiple productos
-
   List<Map<String, dynamic>> productos = [
     producto,
     producto2,
     producto,
-  ];
+  ]; //ListView
 
   // imagenes
   // url -> NetworkImage -> tiempo de carga
