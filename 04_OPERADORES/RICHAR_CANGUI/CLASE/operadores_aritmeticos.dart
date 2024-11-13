@@ -35,6 +35,34 @@ void main() {
   print(mensaje2.substring(1)); //ola Mundo
   print(mensaje2.substring(1,4)); // ola
 
-  print(mensaje2.split(""));
+  
+ final variable10=11;
+  final variable11=11;
+ final resta=variable10-variable11; 
+ print(resta);
 
-}
+ final variable12=4;
+  final variable13=2.2;
+ final multiplicacion=variable12 * variable13; 
+ print(multiplicacion);
+ 
+ final dividendo=10;
+ final divisor=3;
+ final producto= dividendo / divisor;
+print(producto); 
+
+ final divisionentera=dividendo ~/ divisor;
+ print(divisionentera); // muestra la parte entera
+
+final residuo=dividendo % divisor;
+print(residuo);
+
+int variable9=1;
+//print(variable9++);
+//print(variable9);
+
+
+print(++variable9);
+print(variable9);
+ 
+ }
