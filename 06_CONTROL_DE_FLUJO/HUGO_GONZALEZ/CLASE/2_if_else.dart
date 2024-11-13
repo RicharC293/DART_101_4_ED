@@ -1,3 +1,4 @@
+import 'dart:io';
 void main() {
   // 
   // if -> si
@@ -8,8 +9,10 @@ void main() {
   //     operacion
   //  }
 
-  final edad =  12;
+  // final edad =  0;
+  final edad = stdin.readLineSync() //?? '';
   
+  /*
   // Condicional if
   /// SI la edad es mayor a 18 entonces imprimi es mayor de edad
   if (edad > 18)  {
@@ -36,7 +39,8 @@ void main() {
       print("Es niño");
         }
 
-  
+  */
+
   //// Ingresar la edad por consola -> stdin -> int.tryParse
   // bebé -> 0-1 años
   // niño -> 1-12 años
@@ -44,19 +48,20 @@ void main() {
   // adulto -> 28 - 63 años
   // adulto mayor -> mayor a 63 años
 
-  if (edad >= 63) {
+ 
+  if (edad > 63) {
      print("Es un Adulto Mayor");}
    else if (edad >= 28) {
             print("Es un Adulto");}
-     else if (edad >=12) {
+     else if (edad >= 12) {
               print("Es un Adolescente");}
-       else if (edad >=1) {
+       else if (edad >= 1) {
                 print("Es un NIÑO");}
                else {print("Es un BEBE");}
         
      
 
-*/
+
 
      
 }
