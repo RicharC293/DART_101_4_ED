@@ -24,7 +24,7 @@ void main() {
   print(variablePatito.runtimeType);
 
   // Cast
-  final variableX = VariablePatito as double;
+  final variableX = variablePatito as double;
   print(variableX);
   
   // final variableY = variablePatito;
