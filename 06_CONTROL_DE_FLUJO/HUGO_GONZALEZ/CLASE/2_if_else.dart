@@ -9,8 +9,8 @@ void main() {
   //     operacion
   //  }
 
-  // final edad =  0;
-  final edad = stdin.readLineSync() //?? '';
+  final edad =  0;
+ // final edad = stdin.readLineSync() //?? '';
   
   /*
   // Condicional if
