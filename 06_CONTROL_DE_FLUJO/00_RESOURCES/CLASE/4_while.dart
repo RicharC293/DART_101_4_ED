@@ -1,4 +1,3 @@
-import 'dart:io';
 
 void main() {
   /// while -> Mientras la condición sea verdadera ejecutalo

@@ -42,5 +42,4 @@ void main() {
   // !false = true 
   print (!logica1);
 
-
 }

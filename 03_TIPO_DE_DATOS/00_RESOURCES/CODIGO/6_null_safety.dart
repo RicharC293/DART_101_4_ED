@@ -21,7 +21,7 @@ main() {
 
   double? z = null;
   z = 10;
-  print(z!); 
+  print(z); 
 
   /// Null aware 
   /// 
