@@ -1,10 +1,9 @@
 main() {
-
   /// Null safety
-  /// 
+  ///
   /// Seguridad de nulos
-  /// 
-  
+  ///
+
   double x;
 
   // print(x); //error because x is null
@@ -16,23 +15,34 @@ main() {
   double? y = null;
 
   print(y); // null
-  
+
   // to force the execution of a null variable, you must use the ! symbol
 
   double? z = null;
   z = 10;
-  print(z!); 
+  print(z!);
 
-  /// Null aware 
-  /// 
+  /// Null aware
+  ///
   /// Nulos conscientes
-  /// 
+  ///
   /// ?.
-  /// 
+  ///
   /// ??
-  /// 
-  
-  final Map<String, String?> person = {'name': 'Juan', 'age': '30', 'lastName': null};
+  ///
+
+  final Map<String, String?> person = {
+    'name': 'Juan',
+    'age': '30',
+    'lastName': null
+  };
 
   print(person['lastName']?.toUpperCase() ?? 'No lastName'); // NO LASTNAME
+
+  final Map<String, Map<String, String>?> datoX = {
+    "map1": {"key1": "value1"},
+    "map2": null,
+  };
+
+  print(datoX["map2"]?["key1"]);
 }
