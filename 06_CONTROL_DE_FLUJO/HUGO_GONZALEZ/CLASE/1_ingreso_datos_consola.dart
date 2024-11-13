@@ -23,12 +23,13 @@ void main() {
   */
 
   // double
+  /*
   final valorDouble = double.tryParse(datoConsola);
   print(valorDouble);
   print(valorDouble.runtimeType);
 
 
-
+*/
 
 
 }
