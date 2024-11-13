@@ -2,6 +2,6 @@
 
 void main()
 {
-  string nombre="hola";
+  String nombre="hola";
   print(nombre);
 }
