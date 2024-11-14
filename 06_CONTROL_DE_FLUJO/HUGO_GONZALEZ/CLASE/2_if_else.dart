@@ -1,4 +1,3 @@
-import 'dart:io';
 void main() {
   // 
   // if -> si
@@ -9,10 +8,10 @@ void main() {
   //     operacion
   //  }
 
-  final edad =  0;
+  final edad =  25;
  // final edad = stdin.readLineSync() //?? '';
   
-  /*
+  
   // Condicional if
   /// SI la edad es mayor a 18 entonces imprimi es mayor de edad
   if (edad > 18)  {
@@ -29,7 +28,7 @@ void main() {
       print("Es menor de edad");
   }
 
-  // si la edas es mayor a 12 es adolescente. si es mayor 60. adulto mayor y caso contrario es niño
+  /// si la edas es mayor a 12 es adolescente. si es mayor 60. adulto mayor y caso contrario es niño
   // las validaciones hay que hacerlas de mayor a menor  60-12
   if (edad >= 60)  {
       print ("es adulto mayor"); }
