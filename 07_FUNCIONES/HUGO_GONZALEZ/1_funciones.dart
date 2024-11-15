@@ -2,6 +2,19 @@
 void main() {
   holaMundo();
   _holaMundoPrivado();
+  
+  final valorSuma = suma();
+
+  print("El valor de la suma  es: $valorSuma");
+  print("El valor de la suma2 es: ${suma()}");
+
+  final valorTupla = funcionTupla();
+  print("Valor 1: ${valorTupla.$3}");
+
+  // Tip - asignar variables descriptivas 
+  final (valorTupla1, valorTupla2, valorTupla3, valorTupla4) = funcionTupla();
+  print(valorTupla2);
+
 }
 
 
@@ -30,3 +43,18 @@ void _holaMundoPrivado() {
 }
 
 
+// Funcion que sume 2 valores  -> retorne el resultado
+// double  -> retornar
+double suma() {
+  final operacion = 2+2.0;
+  // return en una funcion, retorna los valores que queremos
+  return operacion;
+
+
+}
+
+
+// Tuplas
+(double, double, String, bool) funcionTupla() {
+  return (1.0, 2.0, "Hola", true);
+}
