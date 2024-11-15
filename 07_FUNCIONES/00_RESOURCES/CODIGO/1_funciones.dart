@@ -50,5 +50,7 @@ int suma() {
 
 /// null safety y el retorno de valores 
 int? suma2() {
+  return null;
+
   // return null;
 }
