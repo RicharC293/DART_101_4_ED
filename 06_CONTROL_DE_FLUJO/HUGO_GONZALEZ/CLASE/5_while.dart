@@ -50,5 +50,13 @@ void main() {
 }
 */
 
-
+print("Ingrese un número para calcular su tabla de multiplicar:");
+  final valorConsola = stdin.readLineSync();
+  final numero = int.tryParse(valorConsola ?? "") ?? 1;  // para que se ejecute al menos 1 vez
+  
+  int contador = 0;
+  while (contador <= numero) {
+    print("$numero * $contador = ${numero * contador}");
+    contador++;
+  }
 }
