@@ -1,12 +1,11 @@
 
+import 'dart:developer';
 import 'dart:io';
 import 'dart:core';
 void main()
 {
   print("Ingresa un valor:");
-  final datoConsola= stdin.readLineSync();
   
-  final edadPersona=int.parse('$datoConsola');
   
    // Ingresar la edad por consola -> stdin -> int.tryParse
   // bebé -> 0-1 años
@@ -15,8 +14,14 @@ void main()
   // adulto -> 28 - 63 años
   // adulto mayor -> mayor a 63 años 
   //print(valorEntero);
+     final valor=stdin.readLineSync();
+    final edadPersona = int.tryParse(valor ?? '');
 
-  if ((edadPersona >= 0)&&(edadPersona <=1))
+    if (edadPersona == null)
+    {
+     print("no es valor numerico");
+    }
+     else if ((edadPersona >= 0)&&(edadPersona <=1))
   {
     print("Es un bebe");
   }
@@ -37,4 +42,6 @@ void main()
        print("Es un adulto mayor");
   }
 
+    
+  
 }
