@@ -16,15 +16,22 @@ double suma
   {
     required double numero1,
     required double numero2,
-    double? numero3 = 0,
+    double numero3 = 0,
     required double numero4,
     required double numero5,
   }
   )
 {
-  final valor1=numero1+numero2+numero4+ numero5;
-  if (numero3!=null)
-  {
-    return valor1+numero3;
-  }
+  return numero1 + numero2 + numero3 + numero4 + numero5;
+}
+
+
+double suma1({
+  required double numero1,
+  required double numero2,
+  double numero3 = 0, // darle un valor por defecto
+  required double numero4,
+  required double numero5,
+}) {
+  return numero1 + numero2 + numero3 + numero4 + numero5;
 }
