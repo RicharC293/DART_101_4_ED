@@ -1,6 +1,6 @@
 EELA DART 101 - 4TA EDICIÓN
 ================
-
+//
 Usaremos este repositorio para nuestro trabajo colaborativo a través del curso.
 El objetivo es que afiancemos los conocimientos que vamos obteniendo en las clases.
 
@@ -26,7 +26,7 @@ Las instrucciones de las partes IV y V las tendrás que llevar a cabo siempre qu
 * Clona el repositorio de cuenta de GitHub en tu máquina local (la propia interfaz de GitHub te da la URL en el botón verde "<> Code")
 
        git clone <<url de tu repositorio>>
-
+// prueba1
 * Establece un 'remote', siendo este el repositorio original:
 
        git remote add upstream https://github.com/RicharC293/DART_101_4_ED.git
