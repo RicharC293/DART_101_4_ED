@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 /**
  * Dart fuertemente tipado 

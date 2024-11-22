@@ -20,7 +20,11 @@ main() {
 
   double? z = null;
   z = 10;
-  print(z!);
+<<<<<<< HEAD
+  print(z); 
+=======
+  print(z);
+>>>>>>> upstream/main
 
   /// Null aware
   ///

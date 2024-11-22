@@ -26,12 +26,8 @@ void saludo({required String nombre, required String apellido, int? edad}) {
 
 /// Required y valor por defecto
 void saludo2({required String nombre, required String apellido, int edad = 0}) {
-  if (edad != null) {
-    // se puede observar que el null safety no es necesario
-    print("Hola mi nombre es $nombre $apellido y tengo $edad años");
-  } else {
-    print("Hola mi nombre es $nombre $apellido");
-  }
+  // se puede observar que el null safety no es necesario
+  print("Hola mi nombre es $nombre $apellido y tengo $edad años");
 }
 
 /// Solucionar el problema anterior
